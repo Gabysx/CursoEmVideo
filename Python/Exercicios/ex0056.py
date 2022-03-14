@@ -15,11 +15,12 @@ for c in range(0, 4):
             mulheres += 1
     elif sexo == 2:
         if idade > velho:
+            velho = idade
             esc = nome
 
     mediaIdade += idade / 4
 
 print(f'Essa é a média {mediaIdade:.2f} de idade dessas pessoas ')
 print(f' {mulheres} é a quantidade de mulheres com idades abaixo de 20 anos')
-print(f'{capitalize(esc)} é o cara mais velho da turma')
+print(f'{esc.capitalize()} é o cara mais velho da turma')
 
