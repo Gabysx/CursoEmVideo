@@ -2,7 +2,7 @@ from datetime import date
 anoAtual = date.today().year
 menor = 0
 maior = 0
-for c in range(0, 8):
+for c in range(0, 7):
     num = int(input('Qual seu ano de nascimento ? '))
     calc = anoAtual - num
     if calc < 21:
