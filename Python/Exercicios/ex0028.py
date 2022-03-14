@@ -1,6 +1,6 @@
 from random import randint
 from time import sleep
-computador = randint(0,5)
+computador = randint(0, 5)
 num = int(input('Qual é o numero que deseja escolher ? '))
 print('Processando...')
 sleep(2)
